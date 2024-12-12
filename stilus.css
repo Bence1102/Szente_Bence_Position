@@ -1,8 +1,93 @@
 body {
     background-image: url(kepek/hópihe.jpg);
+    height: 100px;
+    text-align: center;
+    padding: 1%;
+}
+
+header {
+    height: 100px;
+    text-align: center;
+    padding: 1%;
+    grid-area: h;
 }
 
 
+main {
+    display: grid;
+    grid-template-columns: 3fr;
+    gap: 10px;
+    background-image: url(kepek/karacsony.jpg);
+    width: 100%;
+    max-width: 1000px;
+    margin:auto;
+    grid-template-areas: 
+    "n h h"
+    "n a as"
+    "f f f"
+    ;
+}
+
+nav {
+    background-color: aqua;
+    text-align: center;
+    height: 50px;
+    width: 715%;
+    grid-area: n;
+}
+
+nav ul{
+    display: grid;
+    grid-template-columns: 100px;
+    gap:10px;
+    list-style: none;
+    
+    
+}
+
+nav ul li{
+    border: 1px solid  rgb(127, 176, 255);
+    border-radius: 10px;
+    padding: 1px;
+    text-align: center;
+    background-color:  rgb(127, 176, 255); 
+}
+
+nav ul a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+
+article {
+    text-align: center;
+    grid-area: a;
+}
+
+.Tartalom {
+    padding: 10px;
+    display: grid;
+   
+    
+    
+    
+}
+
+aside {
+   
+    grid-area: as;
+    padding: 15px;
+}
+
+footer {
+    background-color: aqua;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    grid-area: f;
+}
 
 
 
