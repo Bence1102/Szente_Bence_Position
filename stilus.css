@@ -1,3 +1,58 @@
 body {
     background-image: url(kepek/hópihe.jpg);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px){
+    nav ul {
+        grid-template-columns: 1fr;
+    }
+    main {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "h"
+            "n"
+            "a"
+            "as"
+            "f"
+        ;
+    }
+}
